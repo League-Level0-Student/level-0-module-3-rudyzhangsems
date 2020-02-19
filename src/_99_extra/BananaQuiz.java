@@ -10,6 +10,15 @@ public class BananaQuiz
 	public static void main(String[] args)
 	{
 		//1. ask the user if they like bananas
+		String walter=JOptionPane.showInputDialog("Do you like banananananananananas?");
+		if(walter.equals("yes"))	{
+			String alfred=JOptionPane.showInputDialog("What is your favorite hobby?");
+			JOptionPane.showMessageDialog(null, alfred + " is a lot worse than banananananananananas.");
+		}
+		else	{
+			JOptionPane.showMessageDialog(null, "You suck");
+			System.exit(0);
+		}
 		//2. if they say no, 
 			//tell them they are crazy 
 			//and end quiz

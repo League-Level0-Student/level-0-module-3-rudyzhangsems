@@ -1,4 +1,4 @@
-//    Copyright (c) The League of Amazing Programmers 2013-2017
+//    () The League of Amazing Programmers 2013-2017
 //    Level 0
 
 package _02_crazy_cat_lady;
